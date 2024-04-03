@@ -1,0 +1,29 @@
+.box{ width: 100px; 
+    height: 100px;
+    border: 2px solid red;
+    transition: all .3s ease-in 1s;
+
+}
+.box:hover{
+    transform: rotate(30deg);
+}
+
+.box2{ width: 100px; 
+    height: 100px;
+    border: 2px solid red;
+    transition: all .3s ease-in 1s;
+
+}
+.box2:hover{
+    transform: scale(1.5);
+}
+
+.box3{ width: 100px; 
+    height: 100px;
+    border: 2px solid red;
+    transition: all .3s ease-in 1s;
+
+}
+.box3:hover{
+    transform: skew(120deg);
+}
